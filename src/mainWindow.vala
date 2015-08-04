@@ -23,7 +23,7 @@ public class PMon.MainWindow : Gtk.Window {
         this.window_position = Gtk.WindowPosition.CENTER;
 
         // set the size based on saved settings
-        this.set_default_size (1280,720);
+        this.set_default_size (this.width_request, this.height_request);
 
 
         this.title = ((PMon.App) GLib.Application.get_default ()).get_name ();
