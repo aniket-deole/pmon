@@ -29,7 +29,8 @@ PMon::PMon () {
 	set_title("Process Monitor");
 
 	windowBody = Gtk::manage (new WindowBody (false, 0, Gtk::PACK_SHRINK, 0, this));
-  
+
+  add (*windowBody);  
 	//	gdk_window_set_decorations (gtk_widget_get_window ((GtkWidget*) gobj ()), GDK_DECOR_BORDER);
 }
 
