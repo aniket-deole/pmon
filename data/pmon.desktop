@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=PMon
+GenericName=Process Monitor
+Comment=Process Monitor
+Categories=GTK;Utility;
+Exec=pmon
+Icon=application-default-icon
+Terminal=false
+Type=Application
+X-GNOME-Gettext-Domain=pmon
+X-GNOME-Keywords=Process;Monitor;
