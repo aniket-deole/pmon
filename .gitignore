@@ -34,3 +34,5 @@ debian
 
 # Debug files
 *.dSYM/
+pmon
+tags
